@@ -1,0 +1,80 @@
+.main {
+  .wrapper {
+    max-width: 1060px;
+    margin: 0 auto;
+  }
+  .intro {
+    min-height: 100vh;
+    background: url(../png/backgroound.png) no-repeat center;
+    background-size: cover;
+    padding-top: 263px;
+    padding-bottom: 223px;
+  }
+  .title {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 60px;
+    max-width: 619px;
+    color: #ffffff;
+    margin-bottom: 22px;
+  }
+  .subtitle {
+    max-width: 546px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    margin-bottom: 59px;
+  }
+}
+
+.search_form_info {
+  display: flex;
+  flex-wrap: wrap;
+
+  .search_form_field {
+    width: 297px;
+    background: transparent url(../png/Oval.svg) no-repeat left 7px;
+    background-size: 20px;
+    border: none;
+    border-bottom: 2px solid #bfc0c5;
+    margin-right: 60px;
+    padding-left: 43px;
+    padding-bottom: 22px;
+    //
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffffff;
+    &::placeholder {
+      font-family: 'Lato';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 24px;
+      color: #ffffff;
+    }
+  }
+  .search_form_submit {
+    padding: 15px 39px;
+    background: #1b7dff;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #ffffff;
+    border: 0;
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: #1b7dff80;
+    }
+  }
+}
