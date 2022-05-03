@@ -6,6 +6,7 @@ import Main from './main/main';
 import Places from './places/places';
 import Top from './top/top';
 import Tour from './tour/tour';
+import Video from './video/video';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Places />
       <Tour />
       <Top />
+      <Video />
     </div>
   );
 };

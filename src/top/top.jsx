@@ -11,9 +11,9 @@ const Top = () => {
     <div className={style.top}>
       <div className={style.top_title}>Today top places to visit</div>
       <div className={style.top_cards}>
-        <div>
+        <div className={style.top_card}>
           <div className={style.top_card_pic}>
-            <img src={top1} className={style.top_card_img} />
+            <img alt='top1' src={top1} className={style.top_card_img} />
             <div className={style.top_card_stats}>
               <div className={style.top_card_title}>NAGOYA</div>
               <div className={style.top_card_likes}>
@@ -27,15 +27,17 @@ const Top = () => {
           <div className={style.top_card_desc}>
             Jump off balcony, onto stranger's head. Chase ball of string hide
             when guests come over. Being gorgeous with belly side up i could pee
-            on this.
+            on this. Jump off balcony, onto stranger's head. Chase ball of
+            string hide when guests come over. Being gorgeous with belly side up
+            i could pee on this.
           </div>
           <a href='#!' className={style.top_card_btn}>
             SEE MORE
           </a>
         </div>
-        <div>
+        <div className={style.top_card}>
           <div className={style.top_card_pic}>
-            <img src={top2} className={style.top_card_img} />
+            <img alt='top2' src={top2} className={style.top_card_img} />
             <div className={style.top_card_stats}>
               <div className={style.top_card_title}>NIIGATA</div>
               <div className={style.top_card_likes}>
@@ -55,9 +57,9 @@ const Top = () => {
             SEE MORE
           </a>
         </div>
-        <div>
+        <div className={style.top_card}>
           <div className={style.top_card_pic}>
-            <img src={top3} className={style.top_card_img} />
+            <img alt='top3' src={top3} className={style.top_card_img} />
             <div className={style.top_card_stats}>
               <div className={style.top_card_title}>OSAKA</div>
               <div className={style.top_card_likes}>
@@ -77,9 +79,9 @@ const Top = () => {
             SEE MORE
           </a>
         </div>
-        <div>
+        <div className={style.top_card}>
           <div className={style.top_card_pic}>
-            <img src={top4} className={style.top_card_img} />
+            <img alt='top4' src={top4} className={style.top_card_img} />
             <div className={style.top_card_stats}>
               <div className={style.top_card_title}>SAITAMA</div>
               <div className={style.top_card_likes}>
@@ -99,9 +101,9 @@ const Top = () => {
             SEE MORE
           </a>
         </div>
-        <div>
+        <div className={style.top_card}>
           <div className={style.top_card_pic}>
-            <img src={top5} className={style.top_card_img} />
+            <img alt='top5' src={top5} className={style.top_card_img} />
             <div className={style.top_card_stats}>
               <div className={style.top_card_title}>UENO</div>
               <div className={style.top_card_likes}>
@@ -121,9 +123,9 @@ const Top = () => {
             SEE MORE
           </a>
         </div>
-        <div>
+        <div className={style.top_card}>
           <div className={style.top_card_pic}>
-            <img src={top6} className={style.top_card_img} />
+            <img alt='top6' src={top6} className={style.top_card_img} />
             <div className={style.top_card_stats}>
               <div className={style.top_card_title}>SHIBUYA</div>
               <div className={style.top_card_likes}>
@@ -137,7 +139,9 @@ const Top = () => {
           <div className={style.top_card_desc}>
             Jump off balcony, onto stranger's head. Chase ball of string hide
             when guests come over. Being gorgeous with belly side up i could pee
-            on this.
+            on this. Jump off balcony, onto stranger's head. Chase ball of
+            string hide when guests come over. Being gorgeous with belly side up
+            i could pee on this.
           </div>
           <a href='#!' className={style.top_card_btn}>
             SEE MORE
