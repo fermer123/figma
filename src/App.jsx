@@ -1,6 +1,7 @@
 import React from 'react';
 import style from './App.module.scss';
 import Benefits from './benefits/benefits';
+import Footer from './footer/footer';
 import Header from './header/header';
 import Main from './main/main';
 import Places from './places/places';
@@ -18,6 +19,7 @@ const App = () => {
       <Tour />
       <Top />
       <Video />
+      <Footer />
     </div>
   );
 };
