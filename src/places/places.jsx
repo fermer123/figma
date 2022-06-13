@@ -7,7 +7,7 @@ import sapporo from '../png/sapporo.jpg';
 
 const Places = () => {
   return (
-    <div className={style.places}>
+    <div id='articles' className={style.places}>
       <div className={style.wrapper}>
         <div className={style.caption}>
           <div className={style.title}>Get inspired for your next trip</div>

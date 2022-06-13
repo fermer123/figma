@@ -2,7 +2,7 @@ import style from './main.module.scss';
 
 const Main = () => {
   return (
-    <div className={style.main}>
+    <div id='#main' className={style.main}>
       <div className={style.intro}>
         <div className={style.wrapper}>
           <h1 className={style.title}>Discover Amazing places in Japan</h1>

@@ -8,7 +8,7 @@ import top6 from '../png/top6.jpg';
 
 const Top = () => {
   return (
-    <div className={style.top}>
+    <div id='location' className={style.top}>
       <div className={style.top_title}>Today top places to visit</div>
       <div className={style.top_cards}>
         <div className={style.top_card}>

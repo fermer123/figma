@@ -2,7 +2,7 @@ import style from './video.module.scss';
 
 const Video = () => {
   return (
-    <div className={style.video}>
+    <div id='videos' className={style.video}>
       <div className={style.video_wrapper}>
         <div className={style.video_item}></div>
         <iframe
