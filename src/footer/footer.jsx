@@ -36,6 +36,8 @@ const Footer = () => {
                   Privacy Policy
                 </a>
               </li>
+            </ul>
+            <ul className={style.footer_menu}>
               <li className={style.footer_menu_item}>
                 <a href='#!' className={style.footer_menu_link_title}>
                   Locations
@@ -61,6 +63,8 @@ const Footer = () => {
                   Hokkaido
                 </a>
               </li>
+            </ul>
+            <ul className={style.footer_menu}>
               <li className={style.footer_menu_item}>
                 <a href='#!' className={style.footer_menu_link_title}>
                   Social Media
